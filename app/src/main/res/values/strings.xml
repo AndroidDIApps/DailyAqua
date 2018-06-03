@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">DailyAqua</string>
+    <string-array name="left_drawer_array">
+        <item>Home</item>
+        <item>My Profile</item>
+        <item>Wallet</item>
+        <item>View Orders</item>
+        <item>Orders History</item>
+        <item>Email Us</item>
+        <item>About Us</item>
+    </string-array>
+    <string name="drawer_open">OPEN</string>
+    <string name="drawer_close">CLOSE</string>
+</resources>

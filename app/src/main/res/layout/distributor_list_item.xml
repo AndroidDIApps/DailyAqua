@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+        <ImageView
+            android:id="@+id/imgDist"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@drawable/water_boy"
+            android:background="@drawable/roundcorner"
+            />
+        <TextView
+            android:id="@+id/txtvwDistName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SiyaRam Srivastav"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/imgDist"
+            android:gravity="center"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"/>
+        <TextView
+            android:id="@+id/txtvwDistLoc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DLF GaurangaNagar"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/txtvwDistName"
+            android:layout_toRightOf="@+id/imgDist"
+            android:gravity="center"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"/>
+
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="4dp"
+            android:layout_below="@+id/txtvwDistLoc"
+            android:layout_toRightOf="@+id/imgDist" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
